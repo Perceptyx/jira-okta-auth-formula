@@ -1,0 +1,10 @@
+jira_okta:
+    okta_config_jira: |
+        <configuration> <applications> <application> XML FROM OKTA </application> </applications> </configuration>
+    login_url: https://company.okta.com/app/jira_onprem/code/sso/saml?RelayState=${originalurl}
+    logout_url: https://company.okta.com
+    jar_dir_url: https://company-admin.okta.com/static/toolkits/
+    jar_filename: okta-jira-2.0.3.jar
+    jira_dir: /opt/jira
+
+
