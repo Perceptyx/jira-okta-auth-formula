@@ -36,22 +36,27 @@ Your XML <configuration> from OKTA site
 
 ### jira_okta:login_url
 login.url and link.login.url from OKTA site
+
 example: https://company.okta.com/app/jira_onprem/code/sso/saml?RelayState=${originalurl}
 
 ### jira_okta:logout_url
 logout.url from OKTA site
+
 example: https://company.okta.com
 
 ### jira_okta:jar_dir_url
 Jira JAR dir url.
+
 example: https://company-admin.okta.com/static/toolkits/
 
 
 ### jira_okta:jar_filename
 Filename of jar plugin
+
 example: okta-jira-2.0.3.jar
     !Remember that jira_dir_url + jira_filename should give you proper url of JAR file
     
 ### jira_okta:jira_dir
 Dir where u have your jira installed
+
 example: /opt/jira
